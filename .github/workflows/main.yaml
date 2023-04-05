@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: "InfectiousDiseaseRiskPredictor"
           slot-name: "production"
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
